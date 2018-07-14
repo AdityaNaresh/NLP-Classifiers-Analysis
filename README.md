@@ -103,4 +103,4 @@ Download it by running the command: >>nltk.download('stopwords')
 
 
 # Contribute to this repository:
-#### Fork this repo and download the dataset (Restaurant_Reviews.tsv) and the template (Contribution Template) and insert your classofier after the Comment ("#INSERT HERE") and rename the template to the name of the classifier and upload it and then create a pull request.
+#### Fork this repo and download the dataset (Restaurant_Reviews.tsv) and the template (Contribution Template) and insert your classifier after the Comment ("#INSERT HERE"), use the GridSearch accordingly for your classifier and rename the template to the name of the classifier and upload it and then create a pull request.
