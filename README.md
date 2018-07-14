@@ -36,9 +36,9 @@ Download it by running the command: >>nltk.download('stopwords')
 
 # k-NearestsNeighbors
 
-Best Config:
-n = 5,
-p = 2 (Euclidean)
+#### Best Config:
+#### n = 5
+#### p = 2 (Euclidean)
 
 ### Accuracy = 65.87 %
 ### Standard Deviation = 0.02354
@@ -56,9 +56,9 @@ p = 2 (Euclidean)
 
 # Random Forests Classification
 
-Best Config:
-n = 73,
-criterion = 'entropy'
+#### Best Config:
+#### n = 73
+#### criterion = 'entropy'
 
 
 ### Accuracy = 77.24 %
@@ -69,9 +69,9 @@ criterion = 'entropy'
 
 # Gradient Boosted Decision Tree Classification
 
-Best Config:
-loss = 'deviance',
-n = 113
+#### Best Config:
+#### loss = 'deviance'
+#### n = 113
 
 ### Accuracy = 77.5 %
 ### Standard Deviation = 0.0251
