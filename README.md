@@ -37,7 +37,7 @@ Download it by running the command: >>nltk.download('stopwords')
 # k-NearestsNeighbors
 
 Best Config:
-n = 5
+n = 5,
 p = 2 (Euclidean)
 
 ### Accuracy = 65.87 %
@@ -57,7 +57,7 @@ p = 2 (Euclidean)
 # Random Forests Classification
 
 Best Config:
-n = 73
+n = 73,
 criterion = 'entropy'
 
 
@@ -70,7 +70,7 @@ criterion = 'entropy'
 # Gradient Boosted Decision Tree Classification
 
 Best Config:
-loss = 'deviance'
+loss = 'deviance',
 n = 113
 
 ### Accuracy = 77.5 %
@@ -103,4 +103,4 @@ n = 113
 
 
 # Contribute to this repository:
- Fork this repo and download the dataset (Restaurant_Reviews.tsv) and the template (Contribution Template) and insert your classofier after the Comment ("#INSERT HERE") and rename the template to the name of the classifier and upload it and then create a pull request.
+#### Fork this repo and download the dataset (Restaurant_Reviews.tsv) and the template (Contribution Template) and insert your classofier after the Comment ("#INSERT HERE") and rename the template to the name of the classifier and upload it and then create a pull request.
