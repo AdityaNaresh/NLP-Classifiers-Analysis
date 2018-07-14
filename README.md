@@ -21,8 +21,8 @@ Download it by running the command: >>nltk.download('stopwords')
 ### 7. Gradient Boosted Decision Tree Classification
 
 ## Improvement Methods Used:
- kCrossValidation - for more accurate and random Testing of model
- GridSearch - for tuning the Hyper Parameters
+### kCrossValidation - for more accurate and random Testing of model
+### GridSearch - for tuning the Hyper Parameters
 
 # Result and Analysis:
 
@@ -103,4 +103,4 @@ n = 113
 
 
 # Contribute to this repository:
-### Fork this repo and download the dataset (Restaurant_Reviews.tsv) and the template (Contribution Template) and insert your classofier after the Comment ("#INSERT HERE") and rename the template to the name of the classifier and upload it and then create a pull request.
+ Fork this repo and download the dataset (Restaurant_Reviews.tsv) and the template (Contribution Template) and insert your classofier after the Comment ("#INSERT HERE") and rename the template to the name of the classifier and upload it and then create a pull request.
