@@ -21,12 +21,12 @@ Download it by running the command: >>nltk.download('stopwords')
 ### 7. Gradient Boosted Decision Tree Classification
 
 ## Improvement Methods Used:
-### kCrossValidation - for more accurate and random Testing of model
-### GridSearch - for tuning the Hyper Parameters
+ kCrossValidation - for more accurate and random Testing of model
+ GridSearch - for tuning the Hyper Parameters
 
 # Result and Analysis:
 
-## Naive Bayes:
+# Naive Bayes:
 
 ### Accuracy = 67.37 %
 ### Standard Deviation = 0.0499
@@ -34,7 +34,7 @@ Download it by running the command: >>nltk.download('stopwords')
 ### Recall = 0.821
 ### F1 Score = 0.6707
 
-## k-NearestsNeighbors
+# k-NearestsNeighbors
 
 Best Config:
 n = 5
@@ -46,7 +46,7 @@ p = 2 (Euclidean)
 ### Recall = 0.6186
 ### F1 Score = 0.625
 
-## Decision Tree Classification
+# Decision Tree Classification
 
 ### Accuracy = 75.35 %
 ### Standard Deviation = 0.0433546
@@ -54,7 +54,7 @@ p = 2 (Euclidean)
 ### Recall = 0.6796
 ### F1 Score = 0.70705
 
-## Random Forests Classification
+# Random Forests Classification
 
 Best Config:
 n = 73
@@ -67,7 +67,7 @@ criterion = 'entropy'
 ### Recall = 0.6822
 ### F1 Score = 0.72274
 
-## Gradient Boosted Decision Tree Classification
+# Gradient Boosted Decision Tree Classification
 
 Best Config:
 loss = 'deviance'
@@ -79,7 +79,7 @@ n = 113
 ### Recall = 0.67241
 ### F1 Score = 0.7394
 
-## Logistic Regression
+# Logistic Regression
 
 ### Accuracy = 78.13 %
 ### Standard Deviation = 0.0205
@@ -87,7 +87,7 @@ n = 113
 ### Recall = 0.7071
 ### F1 Score = 0.7217
 
-## Support Vector Machine (linear)
+# Support Vector Machine (linear)
 
 ### Accuracy = 78.38 %
 ### Standard Deviation = 0.0202
@@ -95,7 +95,7 @@ n = 113
 ### Recall = 0.6923
 ### F1 Score = 0.7236
 
-## So, according to the analysis the following classifiers are recommended for NLP A Bag of Words Model:
+# Recommended Classifiers for the Model:
 ### 1. Support Vector Machine
 ### 2. Logistic Regression
 ### 3. Gradient Boosted Decision Tree Classification
