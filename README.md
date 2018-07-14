@@ -34,11 +34,9 @@ Download it by running the command: >>nltk.download('stopwords')
 ### Recall = 0.821
 ### F1 Score = 0.6707
 
-# k-NearestsNeighbors
+# k-NearestsNeighbors:
 
-#### Best Config:
-#### n = 5
-#### p = 2 (Euclidean)
+#### Best Config: n = 5, p = 2 (Euclidean)
 
 ### Accuracy = 65.87 %
 ### Standard Deviation = 0.02354
@@ -46,7 +44,7 @@ Download it by running the command: >>nltk.download('stopwords')
 ### Recall = 0.6186
 ### F1 Score = 0.625
 
-# Decision Tree Classification
+# Decision Tree Classification:
 
 ### Accuracy = 75.35 %
 ### Standard Deviation = 0.0433546
@@ -54,11 +52,9 @@ Download it by running the command: >>nltk.download('stopwords')
 ### Recall = 0.6796
 ### F1 Score = 0.70705
 
-# Random Forests Classification
+# Random Forests Classification:
 
-#### Best Config:
-#### n = 73
-#### criterion = 'entropy'
+#### Best Config: n = 73, criterion = 'entropy'
 
 
 ### Accuracy = 77.24 %
@@ -67,11 +63,9 @@ Download it by running the command: >>nltk.download('stopwords')
 ### Recall = 0.6822
 ### F1 Score = 0.72274
 
-# Gradient Boosted Decision Tree Classification
+# Gradient Boosted Decision Tree Classification:
 
-#### Best Config:
-#### loss = 'deviance'
-#### n = 113
+#### Best Config: loss = 'deviance', n = 113
 
 ### Accuracy = 77.5 %
 ### Standard Deviation = 0.0251
