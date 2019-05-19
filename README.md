@@ -1,7 +1,7 @@
 # NLP-Classifiers-Analysis
 
 ## Description
-We are using A bag of words algorithm to predict the sentiment analysis on a resturant's reviews dataset. Now after getting the processed data from a bag of words algorithm, we are applying different types of classifiers on the data and analysis the performance of the classifiers on this dataset.
+We are using A bag of words algorithm to predict the sentiment analysis on a resturant's reviews dataset. Now after getting the processed data from a bag of words algorithm, we are applying different types of classifiers on the data and analyse the performance of the classifiers on this dataset.
 
 ## Dependencies and Libraries Used:
 1. Pandas
